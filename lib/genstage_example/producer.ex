@@ -33,12 +33,6 @@ defmodule GenstageExample.Producer do
 
   #   # IO.puts(length(lines))
 
-  #   # lines = [
-  #   #   ["abc1", "abc2", "abc3", "abc4"],
-  #   #   ["xyz1", "xyz2", "xyz3", "xyz4"],
-  #   #   ["adsf1", "asdf2", "asdf3", "asdf4"]
-  #   # ]
-
   #   {:producer, lines}
   # end
 

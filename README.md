@@ -1,21 +1,13 @@
 # GenstageExample
 
-**TODO: Add description**
+This example has a Producer and a Consumer. The Producer has a `pull/0` function that makes a call to the [mtg_sdk_ex](https://hex.pm/packages/mtg_sdk_ex) library to get some card data. The Consumer asks for between 0 and 3 events (`max_demand = 3`) and dumps the card name into an `IO.puts` statement.
 
-## Installation
+_TODO_
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `genstage_example` to your list of dependencies in `mix.exs`:
+- Tests for the Producer and the Consumer
+- Inject a ProducerConsumer
+- Do something interesting with the Card data
 
-```elixir
-def deps do
-  [
-    {:genstage_example, "~> 0.1.0"}
-  ]
-end
-```
+## To Run
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/genstage_example](https://hexdocs.pm/genstage_example).
-
+`iex -S mix`
